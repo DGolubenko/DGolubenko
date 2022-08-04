@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.1in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Dmitry Golubenko} % Your name
+\address{75 Privolnaya street \\ Moscow, Russia} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{GitHub: DGolubenko \\ Personal website: https://www.hse.ru/staff/dg \\ ORCID: 0000-0002-2053-6094}
+\address{8(963)666-13-98 \\ golubenko@mccme.ru} % Your phone number and email
+
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{RoyalPurple}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{1.5em}
+}
+\item[]
+}{
+\end{list}
+}
+
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\begin{rSubsection}{Higher School of Economics}{September 2011 - Present}{}{}
+\item Ph.D. student, present. \textit{Thesis title:} Noncommutative Shilov boundaries, {\it supervisor:} Alexey Pirkovski
+\item Master in Mathematics, 2017. \textit{Thesis title:} Geometry of Peterson variety, {\it supervisor:} Evgeny Feigin
+\item Bachelor in Mathematics, 2015. \textit{Thesis title:} z-measures and $\mathfrak{sl}_2$, {\it supervisor:} Alexander Bufetov
+%\item Wrote an API to web scrape Polar Loop Fitness Tracker data 
+%\item Data was obtained with Selenium, Data was managed through SQL, Pandas and Scipy were used for analysis, and Matplotlib was used for visualizations
+\end{rSubsection}
+
+\begin{rSubsection}{Independent University of Moscow}{September 2009 - June 2016}{}{}
+\item Master in Mathematics, 2017. \textit{Thesis title:} Probabilistic aspects of the theory of vertex algebras, {\it supervisor:} Evgeny Feigin
+%\item Wrote an API to web scrape Polar Loop Fitness Tracker data 
+%\item Data was obtained with Selenium, Data was managed through SQL, Pandas and Scipy were used for analysis, and Matplotlib was used for visualizations
+\end{rSubsection}
+
+\begin{rSubsection}{Moscow Mathematical School No. 2}{September 2006 - May 2011}{}{}
+\end{rSubsection}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Academic interests}
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Representation theory &  Affine Lie algebras, C*-algebras\\
+%Combinatorics & Enumerative combinatorics, q-combinatorics \\
+%\end{tabular}
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Skills}
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Activity}
+
+% REFURBISH THE CATEGORY! INSERT PUBLISHED ARTICLES!
+
+\begin{enumerate}
+  %%%%%\leftskip-0.25in % for bullets
+  \leftskip-0.13in % for numbers
+  \item \textbf{Golubenko, D}. \textit{Probabilistic aspects of the theory of vertex algebras.} \verbatiminput{arxiv/1706.00558}, 2017
+
+  %\item \textbf{Golubenko, D}., (2017). Proving Parikh's theorem using Chomsky-Schutzenberger theorem.  \verbatiminput{arxiv/1710.09612}
+  
+  \item \textbf{Golubenko, D}. \textit{Nonterminal complexity of some families of infinite regular languages.} \verbatiminput{arxiv/2103.11174}, 2018
+
+
+  %\item \textbf{Phiri, L}., Williams, K., Robinson, M., Hammar, S., \& Suleman, H. (2012). Bonolo: A general digital library system for file-based collections. In H.-H. Chen, \& G. Chowdhury (Eds.), 14$^{th}$ International Conference on Asia-Pacific Digital Libraries (pp. 49--58). Berlin, Heidelberg: Springer Berlin Heidelberg. DOI: \href{http://dx.doi.org/10.1007/978-3-642-34752-8\_6}{10.1007/978-3-642-34752-8\_6}
+
+\end{enumerate}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	INDUSTRY EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Industry Activity}
+
+%\begin{rSubsection}{Huawei Russian Research Center}{July 2019 --- March 2020}{Intern}{}
+%\item 
+%\end{rSubsection}
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Activity}
+
+\begin{rSubsection}{Higher School of Economics}{September 2019 - December 2019}{Invited lecturer}{}
+\item \normalsize{Algorithms and Computation Models} \\ \small{\emph{An introduction to algorithms and complexity theory with some advanced topics (algorithms in algebra and topology, randomized algorithms, linear programming).}}
+\end{rSubsection}
+
+\begin{rSubsection}{Moscow Institute for Physics and Technology}{September 2016 - June 2019}{Assistant lecturer}{}
+\item \normalsize{Algorithms and Computation Models} \\ \small{\emph{An introduction to algorithms and complexity theory with some advanced topics (algorithms in algebra and topology, randomized algorithms, linear programming).}}
+\item \normalsize{Theory and Practice of Programming Languages} \\ \small{\emph{An Aho-Ullman style introduction to formal language theory and its applications to compiler writing.}}
+\item \normalsize{Theory of Formal Systems} \\ \small{\emph{Basic undergraduate mathematical logic course.}}
+\end{rSubsection}
+
+\begin{enumerate}
+  %%%%%\leftskip-0.25in % for bullets
+  \leftskip-0.13in % for numbers
+  \item \textbf{Golubenko, D}., Savvateev, Yu. \textit{Languages, automata and grammar.} M., MCCME, to appear (in Russian)
+  
+  \item \textbf{Golubenko, D}., Kroshnin A., Gorbunov E.. \textit{Algorithms and computation models.} M., MIPT, 2020 (in Russian)
+
+  %\item Babicheva T., Babichev S., \textbf{Golubenko, D}. \textit{Graph theory and algorithms}, to appear (in French)
+\end{enumerate}
+
+\end{rSection}
+
+%	ACHIEVEMENTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Achievements} \itemsep -2pt
+%{Higher School of Economics Research Paper Contest Prize-Winner} \hfill {\em Autumn 2016} \\
+{Russian Geographic Olympiad Prize-Winner}\hfill {\em Spring 2010}\\
+{Moscow Physical Olympiad Winner}\hfill {\em Autumn 2010, 2011}\\
+{Tournament of Towns Winner} \hfill {\em Autumn 2009, 2010} \\
+\end{rSection}
+
+%	PROGRAMMING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Programming Skills} \itemsep -2pt
+%{Higher School of Economics Research Paper Contest Prize-Winner} \hfill {\em Autumn 2016} \\
+%Python, SageMath, C/C++, R, MySQL
+%\end{rSection}
+
+
+\end{document}
